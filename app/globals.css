@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+  @apply w-full border border-gray-300 rounded-md p-2 mt-1 bg-white text-gray-900 text-sm outline-none transition-all duration-200 focus:ring-2 focus:ring-pink-500 focus:border-pink-500;
+}
+
+.error {
+  @apply text-red-300 text-xs mt-1;
+}
+
+.btn {
+  @apply w-full bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white font-semibold py-1.5 px-3 rounded-md shadow-md text-sm hover:from-purple-600 hover:via-pink-600 hover:to-red-600 transition-all duration-200;
+}
