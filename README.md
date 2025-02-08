@@ -1,3 +1,25 @@
+# This project allows users to:
+
+Browse job postings
+
+Apply for jobs via a form
+
+View the list of jobs they've applied for
+Enjoy a sleek UI with dark mode toggle and dynamic routing for job details
+
+Features:
+
+Dynamic routing for job details (/jobs/[id])
+
+Form handling and validation using Formik and Yup
+
+API calls with RTK Query or Axios
+
+Fully responsive design following a Figma design mockup
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
